@@ -8,9 +8,16 @@ function calcular_edad()
 function verificar_par()
 {
 	var par = document.getElementById('par').value;
+	if(par%2 == 0)
+		return par.toString()
+	else
+		return par
 }
 
 function verificar_par()
 {
 	var impar = document.getElementById('impar').value;
+	if(impar%2 != 0)
+		arr = impar.toString()
+		return arr.split()
 }

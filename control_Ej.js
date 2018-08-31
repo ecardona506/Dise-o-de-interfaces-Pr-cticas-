@@ -12,5 +12,6 @@ function par()
 
 function impar()
 {
-	
+	var num_impar = calcular_edad()
+	console.log(num_impar);
 }
